@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Xamarin_Timer.MainPage">
 
+    <!--
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
@@ -19,6 +20,22 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+    </StackLayout>
+    -->
+    <StackLayout VerticalOptions="Center">
+        <Label Text="0"
+               x:Name="CounterLabel"
+               TextColor="Aquamarine"
+               FontSize="72"
+               FontFamily="ComicSans"
+               HorizontalOptions="Center"
+               />
+
+        <Button Text="Increment!" 
+                Clicked="IncrementCOunterClicked" 
+                FontSize="46" 
+                />
+
     </StackLayout>
 
 </ContentPage>
