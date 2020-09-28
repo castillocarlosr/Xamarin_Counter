@@ -19,7 +19,7 @@ namespace Xamarin_Timer
             InitializeComponent();
         }
 
-        private void IncrementCounterClicked(object sender, EventArgs evA)
+        private void IncrementCounterClicked(object sender, EventArgs ignoreMe)
         {
             count++;
             CounterLabel.Text = count.ToString();
